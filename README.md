@@ -19,7 +19,7 @@ In this lab, you will be using the molecular simulation code we wrote in Chem 28
     make install
     ```
 
-4. Review the Makefile in `mcsim_python`. Write a comment above each target explaining what the target does.
+4. Review the Makefile in `mcsim_python`. Write a comment above each target explaining what the target does. Make a note of any questions you have in your `README.md`(this file).
 
 ### Section 2 - Runnning Simulations
 1. Use the notebook `run_mcsim.ipynb` to run Monte Carlo simulations. Follow the instructions in the notebook.

@@ -5,8 +5,8 @@ MODULE=mcsim
 ENVIRONMENT=chem274A_lab1
 
 environment: remove-env
-	conda create -n $(ENVIRONMENT) "python=3.9" --yes
-	conda install -c conda-forge notebook nbconvert numpy matplotlib pytest-cov pandas --name $(ENVIRONMENT) --yes
+	conda create -n $(ENVIRONMENT) "python=3.11" --yes
+	conda install -c conda-forge jupyterlab numpy matplotlib pandas --name $(ENVIRONMENT) --yes
 
 remove-env:
 	conda remove --name $(ENVIRONMENT) --all --yes
